@@ -1,38 +1,164 @@
-.App {
-  text-align: center;
+
+.season-title,.movie-description {
+  font-weight: normal;
+  font-size: 1.438rem;
+  line-height: 1.688rem;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.movie-title {
+  font-weight: bold;
+  font-size: 4.625rem;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.app-container {
+  background: url('./episodes-images/movie-cover.jpeg') rgb(18 1 10 / 69%) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  background-blend-mode: multiply;
+  height: 100vh;
+  width: 65%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.season-info {
+  padding: 25% 10% 8%;
+}
+
+.d-flex {
   display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column{
   flex-direction: column;
+}
+
+.episodes-container {
+  margin: 3% 0 0 10%;
+  overflow-x: scroll;
+}
+
+.episode-container {
+  margin-right: 1.75rem;
+}
+
+.episode-title {
+  font-size: 0.938rem;
+  margin: 1rem 0;
+}
+.episode-plot {
+  margin: 0 0 2rem;
+  font-weight: 300;
+  font-size: 0.813rem ;
+}
+
+.number {
+  height: 1.875rem;
+  width: 1.875rem;
+  background-color: #ffff;
+  color: black;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.episode {
+  height: 8.375rem;
+  width: 12.563rem;
+  background-blend-mode: multiply;
+  cursor: pointer;
+}
+.active {
+  background-blend-mode: lighten;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image-1{
+  background:  url('./episodes-images/episode-1.png') center / cover no-repeat;
 }
+.image-2{
+  background: url('./episodes-images/episode-2.png') rgb(18 1 10 / 69%) center / cover no-repeat;
+}
+.image-3{
+  background: url('./episodes-images/episode-3.png') rgb(18 1 10 / 69%) center / cover no-repeat;
+}
+.image-4{
+  background:  url('./episodes-images/episode-4.png') rgb(18 1 10 / 69%) center / cover no-repeat;
+}
+.image-5{
+  background:  url('./episodes-images/episode-5.png') rgb(18 1 10 / 69%) center / cover no-repeat;
+}
+.image-6{
+  background: url('./episodes-images/episode-6.png') rgb(18 1 10 / 69%) center / cover no-repeat;
+}
+.image-7{
+  background: url('./episodes-images/episode-7.png') rgb(18 1 10 / 69%) center / cover no-repeat;
+}
+.image-8{
+  background: url('./episodes-images/episode-8.png') rgb(18 1 10 / 69%) center / cover no-repeat;
+}
+.image-9{
+  background: url('./episodes-images/episode-9.png') rgb(18 1 10 / 69%) center / cover no-repeat;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.37);
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.episode-overview {
+  width: 35%;
+  height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+.image-container {
+  height: 55%;
+  width: 100%;
+}
+
+.episode-overview-info {
+  height: 15%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.overview-title-section {
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.episode-number {
+  margin: 0;
+}
+
+hr {
+  border: 1px solid #ececec;
+}
+
+.overview-title {
+  font-size: 1.688rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+
+
+
+
